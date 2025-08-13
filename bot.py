@@ -152,7 +152,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # === Команды ===
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("<b>Привет! 😊</b>\nНапиши что-нибудь.", parse_mode="HTML")
+    await update.message.reply_text("<b>Привет! 😊</b>\nЯ — DeepSeek by Jonny. Напиши что-нибудь.", parse_mode="HTML")
 
 def main():
     print("✅ Бот запущен")
